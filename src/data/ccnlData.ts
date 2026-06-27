@@ -191,10 +191,10 @@ export const assicurazioni = {
   },
 };
 
-// Aliquote IRPEF 2024
+// Aliquote IRPEF 2026
 export const aliquoteIRPEF = [
   { scaglione: 'Fino a 28.000', aliquota: '23%' },
-  { scaglione: 'Da 28.000 a 50.000', aliquota: '35%' },
+  { scaglione: 'Da 28.000 a 50.000', aliquota: '33%' },
   { scaglione: 'Oltre 50.000', aliquota: '43%' },
 ];
 

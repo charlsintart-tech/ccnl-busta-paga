@@ -128,7 +128,7 @@ export default function Dashboard() {
           <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-5">
             <h3 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2">
               <TrendingUp size={16} className="text-red-500" />
-              Aliquote IRPEF 2024
+              Aliquote IRPEF 2026
             </h3>
             <div className="space-y-2">
               {aliquoteIRPEF.map((a) => (

@@ -28,7 +28,7 @@ export default function Layout() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Mobile header */}
-      <div className="lg:hidden fixed top-0 left-0 right-0 z-30 bg-white border-b border-slate-200 px-4 py-3 flex items-center gap-3">
+      <div className="lg:hidden fixed top-0 left-0 right-0 z-30 bg-white border-b border-slate-200 px-4 pt-[env(safe-area-inset-top,0px)] pb-2 flex items-center gap-3">
         <button
           onClick={() => setSidebarOpen(!sidebarOpen)}
           className="p-1.5 rounded-lg hover:bg-slate-100 transition-colors"

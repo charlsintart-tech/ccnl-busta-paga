@@ -85,7 +85,7 @@ export default function Contributi() {
 
           {/* IRPEF */}
           <Card
-            title="Aliquote IRPEF 2024"
+            title="Aliquote IRPEF 2026"
             subtitle="Scaglioni di imposta sul reddito"
             icon={<TrendingUp size={18} />}
           >
@@ -129,7 +129,7 @@ export default function Contributi() {
               </h4>
               <p className="text-xs text-slate-500 leading-relaxed">
                 L'IRPEF si applica a scaglioni progressivi: i primi 28.000 euro sono 
-                tassati al 23%, la parte da 28.000 a 50.000 al 35%, e tutto quello 
+                tassati al 23%, la parte da 28.000 a 50.000 al 33%, e tutto quello 
                 che supera i 50.000 euro al 43%.
               </p>
             </div>
