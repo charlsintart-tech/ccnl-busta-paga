@@ -67,7 +67,7 @@ export default function Dashboard() {
   return (
     <PageHeader
       title="Dashboard"
-      subtitle="Panoramica CCNL - Accordi di 2° Livello 2013 - Adeguamento ISTAT 2024/2025"
+      subtitle="Panoramica CCNL 2001 - Accordi di 2° Livello 2013 - Aumenti 2024/2025"
     >
       {/* Summary cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mb-8">
