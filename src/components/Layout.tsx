@@ -35,8 +35,9 @@ export default function Layout() {
         >
           {sidebarOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
-        <h1 className="text-sm font-semibold text-slate-800 truncate">
-          CCNL - Accordi 2° Livello 2013
+        <h1 className="text-xs font-semibold text-slate-800 leading-snug">
+          <span className="block">CCNL 2001 - Accordi di 2° Livello 2013</span>
+          <span className="block">Aumenti 2024/2025</span>
         </h1>
       </div>
 
@@ -56,13 +57,10 @@ export default function Layout() {
       >
         <div className="p-5 border-b border-slate-200">
           <h1 className="text-base font-bold text-slate-900 leading-tight">
-            CCNL - Busta Paga
+            CCNL 2001 - Accordi di 2° Livello 2013
           </h1>
           <p className="text-xs text-slate-500 mt-1">
-            Accordi 2° Livello 2013
-          </p>
-          <p className="text-xs text-slate-500">
-            Adeguamento ISTAT 2024/2025
+            Aumenti 2024/2025
           </p>
         </div>
         <nav className="flex-1 py-3 overflow-y-auto">
