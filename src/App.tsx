@@ -7,7 +7,7 @@ import IndennitaRimborsi from './pages/IndennitaRimborsi';
 import Straordinari from './pages/Straordinari';
 import Contributi from './pages/Contributi';
 import Assicurazioni from './pages/Assicurazioni';
-import Documento from './pages/Documento';
+import Riepilogo from './pages/Riepilogo';
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
           <Route path="/straordinari" element={<Straordinari />} />
           <Route path="/contributi" element={<Contributi />} />
           <Route path="/assicurazioni" element={<Assicurazioni />} />
-          <Route path="/documento" element={<Documento />} />
+          <Route path="/riepilogo" element={<Riepilogo />} />
         </Route>
       </Routes>
     </HashRouter>

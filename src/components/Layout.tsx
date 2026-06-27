@@ -21,7 +21,7 @@ const navItems = [
   { to: '/straordinari', icon: Clock, label: 'Straordinari & Festivita' },
   { to: '/contributi', icon: PiggyBank, label: 'Contributi & Previdenza' },
   { to: '/assicurazioni', icon: Shield, label: 'Assicurazioni & Ferie' },
-  { to: '/documento', icon: FileText, label: 'Documento PDF' },
+  { to: '/riepilogo', icon: FileText, label: 'Riepilogo' },
 ];
 
 export default function Layout() {
